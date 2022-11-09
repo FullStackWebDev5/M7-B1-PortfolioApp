@@ -1,18 +1,26 @@
+import "./index.css";
+
 const LeftSection = () => {
   return (
     <div className="LeftSection">
       <div className="Education">
-        <h2>Education</h2>
-        <h2>Education 1</h2>
-        <h2>Education 2</h2>
-        <h2>Education 3</h2>
+        <p className="section-title">Education</p>
+        <p className="section-sub-title">
+          Institute of Engineering <span className="year">(2015-2019)</span>
+        </p>
+        <p className="section-sub-title">
+          St. Joseph University <span className="year">(2013-2015)</span>
+        </p>
+        <p className="section-sub-title">
+          Max High Scool <span className="year">(2003-2013)</span>
+        </p>
       </div>
       <hr />
       <div className="Skill">
-        <h2>Skills</h2>
-        <h2>Skill 1</h2>
-        <h2>Skill 2</h2>
-        <h2>Skill 3</h2>
+        <p className="section-title">Skills</p>
+        <p className="section-sub-title">Skill 1</p>
+        <p className="section-sub-title">Skill 2</p>
+        <p className="section-sub-title">Skill 3</p>
       </div>
     </div>
   );

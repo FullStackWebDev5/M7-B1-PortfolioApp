@@ -1,0 +1,17 @@
+.LeftSection {
+	text-align: left;
+}
+
+.section-title {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+.section-sub-title {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+.section-sub-title .year {
+	font-size: 0.8em;
+}

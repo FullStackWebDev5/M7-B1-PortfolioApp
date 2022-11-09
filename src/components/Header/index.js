@@ -1,11 +1,11 @@
-import React from "react";
+import './index.css'
 
 const Header = () => {
   return (
     <div className="Header">
-      <h1>John Doe</h1>
-      <h3>Email: john@gmail.com</h3>
-      <h3>Phone Number: +91 9898989898</h3>
+      <p className="candidate-name">John Doe</p>
+      <p className="candidate-email">Email: john@gmail.com</p>
+      <p className="candidate-phone">Phone Number: +91 9898989898</p>
     </div>
   );
 };
