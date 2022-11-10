@@ -1,26 +1,46 @@
 import "./index.css";
+import Education from './Education/index'
 
 const LeftSection = () => {
   return (
     <div className="LeftSection">
       <div className="Education">
         <p className="section-title">Education</p>
-        <p className="section-sub-title">
-          Institute of Engineering <span className="year">(2015-2019)</span>
-        </p>
-        <p className="section-sub-title">
-          St. Joseph University <span className="year">(2013-2015)</span>
-        </p>
-        <p className="section-sub-title">
-          Max High Scool <span className="year">(2003-2013)</span>
-        </p>
+        <Education
+          institute="Institute of Engineering"
+          years="2015-2019"
+          cgpa={8.5}
+          point1="It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout."
+          point2="The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English."
+        />
+				<Education
+          institute="St. Joseph University"
+          years="2013-2015"
+          cgpa={5.9}
+          point1="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+          point2="If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+        />
+				<Education
+          institute="Max High Scool"
+          years="2003-2013"
+          cgpa={7.6}
+          point1="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.."
+          point2="It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        />
       </div>
       <hr />
       <div className="Skill">
         <p className="section-title">Skills</p>
-        <p className="section-sub-title">Skill 1</p>
-        <p className="section-sub-title">Skill 2</p>
-        <p className="section-sub-title">Skill 3</p>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Bootstrap</li>
+					<li>JavaScript</li>
+					<li>React.js</li>
+				</ul>
       </div>
     </div>
   );
